@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.maincontainer{
+    width: 100%;
+    min-height: 600px;
+    background: linear-gradient(to bottom, gray 6%, rgb(71, 70, 70) 100%);
+   /* background-image: -o-linear-gradient(rgb(71, 70, 70), rgb(46, 46, 46)); */
+}
+
+.container{
+    width: 60%;
+    min-height: 300px;
+    padding-top:20px ;
+}
+
+/* For mobile phones: */
+[class*="col-1"] {
+    width: 100%;
+  }
+
+  
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
